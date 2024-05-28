@@ -1,14 +1,14 @@
-const Book = require('./book');
+const Book = require('./book')
 
-const getBookById = (id) => {};
+const getBookById = (id) => {}
 
-const getAllBooks = () => {};
+const getAllBooks = () => {}
 
-const createBook = (bookDetails) => {};
+const createBook = (bookDetails) => {}
 
-const removeBookById = (id) => {};
+const removeBookById = (id) => {}
 
-const updateBookById = (id, update) => {};
+const updateBookById = (id, update) => {}
 
 module.exports = {
 	getBookById,
@@ -16,4 +16,4 @@ module.exports = {
 	createBook,
 	removeBookById,
 	updateBookById,
-};
+}
